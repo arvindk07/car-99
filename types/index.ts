@@ -35,3 +35,13 @@ export interface FilterProps {
   model: string;
   manufacturer: string;
 }
+
+export interface OptionsProps {
+  title: string;
+  value: string;
+}
+
+export interface CustomFilterProps {
+  title: string;
+  options: OptionsProps[];
+}
